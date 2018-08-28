@@ -224,7 +224,7 @@ function traverseObject(someObj)
 	let properties = Object.keys(someObj);
     for (let i = 0; i < properties.length; i++)
     {
-		console.log(`Object properties = "${properties[i]}" with a value of "${someObj[properties[i]]}"`);
+		console.log('Object properties = ' + properties[i] + 'with a value of ' + someObj[properties[i]]);
 	}
 }
 
